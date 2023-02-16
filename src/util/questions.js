@@ -48,16 +48,6 @@ const register = [
         type: "text",
         name: "record_value",
         message: "What should the value of the record be?"
-    },
-
-    {
-        type: "select",
-        name: "proxy_state",
-        message: "Should the record be proxied through Cloudflare?",
-        choices: [
-            { title: "No", value: "false" },
-            { title: "Yes", value: "true" }
-        ]
     }
 ]
 
@@ -119,16 +109,6 @@ const update = [
         type: "text",
         name: "record_value",
         message: "What should the value of the record be?"
-    },
-
-    {
-        type: "select",
-        name: "proxy_state",
-        message: "Should the record be proxied through Cloudflare?",
-        choices: [
-            { title: "No", value: "false" },
-            { title: "Yes", value: "true" }
-        ]
     }
 ]
 
